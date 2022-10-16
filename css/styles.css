@@ -93,6 +93,12 @@ html {
     scroll-behavior: smooth;
 }
 
+@media(max-width: 820px) {
+    .blog {
+        width: 100%;
+    }
+}
+
 .navbar {
     border: 3px;
     border-color: #bd1c2cd3;
