@@ -12,7 +12,7 @@
     border-color: #bd1c2cd3;
     border-style: solid;
     background-color: #ffffff40;
-    width: 40%;
+    width: 50%;
     margin: auto;
     margin-bottom: 3%;
     text-align: justify;
@@ -40,7 +40,7 @@ body {
     border-style: solid;
     border-width: 5px;
     width: fit-content;
-    margin-left: 15%;
+    left: 7%;
     position: fixed;
 }
 
@@ -58,13 +58,18 @@ body {
 }
 
 @font-face {
+    font-family: Gutenberg;
+    src: url("../fonts/GutenbergTextura.ttf");
+}
+
+@font-face {
     font-family: Yonkers;
     src: url("../fonts/Yonkers.ttf");
 }
 
 h1 {
     color: #000000de;
-    font-family: Blackletter;
+    font-family: Gutenberg;
     font-weight: 400;
     font-size: 8em;
     text-align: center;
@@ -76,7 +81,7 @@ h2 {
     margin: 0%;
     margin-bottom: 1%;
     text-align: center;
-    font-family: Blackletter;
+    font-family: Yonkers;
     font-size: 5rem;
     font-weight: 300;
     text-decoration: underline;
