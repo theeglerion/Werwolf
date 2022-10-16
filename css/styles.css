@@ -93,9 +93,12 @@ html {
     scroll-behavior: smooth;
 }
 
-@media(max-width: 820px) {
+@media(min-width: 820px) {
     .blog {
-        width: 100%;
+        width: 60%;
+    }
+    .border {
+        left: 0%;
     }
 }
 
@@ -106,7 +109,7 @@ html {
     overflow: hidden;
     text-align: left;
     font-family: Yonkers;
-    font-size: 160%;
+    font-size: 180%;
     font-weight: 600;
     width: 85%;
     margin: auto;
