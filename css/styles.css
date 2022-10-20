@@ -180,13 +180,13 @@ html {
 
 .rollen p::first-letter {
     font-size: 2em;
-    font-weight: 400;
     color: #bd1c2cd3;
     text-decoration: none;
 }
 
 .rollen p::first-line {
     font-family: Yonkers;
+    font-weight: 600;
     line-height: 1;
     text-decoration: underline;
 }
