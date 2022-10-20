@@ -165,7 +165,7 @@ html {
         font-size: 2.5em;
     }
     .main {
-        font-size: 1em;
+        font-size: 1.1em;
         padding: 4%;
         width: auto;
     }
@@ -182,9 +182,9 @@ html {
         font-size: 1.5em !important;
     }
     .navbar-border {
-        border: none;
-        width: 100%;
-        padding: 0;
+        border: solid 3px #bd1c2cd3;
+        width: 96.5%;
+        padding: 3px;
         top: 0;
         left: 0;
         margin: 0;
