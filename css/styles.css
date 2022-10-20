@@ -94,7 +94,7 @@ html {
     padding-right: 3%;
     text-align: justify;
     hyphens: auto;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .main-border {
@@ -140,7 +140,7 @@ html {
 
 .rollen p {
     margin: 0;
-    padding-top: 4%;
+    padding-top: 1em;
 }
 
 .rollen p::first-letter {
@@ -184,7 +184,7 @@ html {
     }
     .navbar-border {
         border: solid 3px #bd1c2cd3;
-        width: 96.5%;
+        width: 97%;
         padding: 3px;
         top: 0;
         left: 0;
