@@ -114,16 +114,22 @@ html {
     margin: auto;
     text-align: left;
     list-style: none;
+    width: auto;
 }
 
 .navbar a {
-    float: none;
-    display: inline-block;
     color: #000;
+    display: inline-block;
+    width: 100%;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     font-size: 2em;
     font-weight: 600;
+}
+
+.navbar a:not(.not):hover {
+    color: #bd1c2cd3;
+    background-color: #000;
 }
 
 .navbar-border {
@@ -131,7 +137,7 @@ html {
     border: #2f9cb5;
     border-style: solid;
     border-width: 3px;
-    width: 110px;
+    width: 115px;
     margin: auto;
     position: fixed;
     top: 40%;
@@ -171,7 +177,7 @@ html {
         width: auto;
     }
     .main-border {
-        width: 80%;
+        width: 85%;
     }
     .navbar {
         border-color: #2f9cb5 !important;
