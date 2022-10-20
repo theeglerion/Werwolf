@@ -21,18 +21,6 @@ body {
     position: absolute;
 }
 
-.borderX {
-    padding: 5px;
-    border: #2f9cb5;
-    border-style: solid;
-    border-width: 5px;
-    width: 7%;
-    margin: auto;
-    position: fixed;
-    top: 20%;
-    left: 7%;
-}
-
 .container {
     padding-left: 4%;
     padding-right: 4%;
@@ -67,9 +55,10 @@ h1 {
 }
 
 h2 {
+    margin: 0;
+    padding-bottom: 2%;
+    padding: 2%;
     color: #000000de;
-    margin: 0%;
-    margin-bottom: 1%;
     text-align: center;
     font-family: Yonkers;
     font-size: 5em;
@@ -83,21 +72,40 @@ html {
     scroll-behavior: smooth;
 }
 
+.initial p:first-child:first-letter {
+    border-style: double;
+    border-color: #2f9cb5;
+    border-width: 5px;
+    font-family: Blackletter;
+    font-size: 5.2em;
+    color: #bd1c2cd3;
+    padding: 1%;
+    margin-right: 1%;
+    line-height: 0.7;
+    float: left;
+}
+
 .main {
-    border: 5px;
-    border-color: #bd1c2cd3;
-    border-style: solid;
+    border: solid 5px #bd1c2cd3;
+    /*  
+    box-shadow: 0 0 0 5px #bd1c2cd3, inset 0 0 0 5px #2f9cb5;
+    ------> Border v1 <------- 
+    */
     background-color: #ffffff40;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 3%;
+    /*margin: auto;*/
+    width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
     text-align: justify;
-    padding: 2.5rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.4rem;
-    font-weight: 500;
-    initial-letter: 3;
     hyphens: auto;
+    font-size: 1.5em;
+}
+
+.main-border {
+    border: solid 3px #2f9cb5;
+    padding: 3px;
+    margin: auto;
+    width: 50%;
 }
 
 @media (max-width: 820px) {
@@ -116,9 +124,9 @@ html {
         font-size: 2.5em;
     }
     .main {
-        font-size: .9em;
+        font-size: 1em;
         padding: 4%;
-        width: 70%;
+        width: auto;
     }
     .navbar {
         border-color: #2f9cb5 !important;
@@ -153,6 +161,32 @@ html {
     font-weight: 600;
 }
 
-p::first-letter {
-    initial-letter: 3;
+.navbar-border {
+    padding: 3px;
+    border: #2f9cb5;
+    border-style: solid;
+    border-width: 3px;
+    width: 110px;
+    margin: auto;
+    position: fixed;
+    top: 30%;
+    left: 7%;
+}
+
+.rollen p {
+    margin: 0;
+    padding-top: 4%;
+}
+
+.rollen p::first-letter {
+    font-size: 2em;
+    font-weight: 400;
+    color: #bd1c2cd3;
+    text-decoration: none;
+}
+
+.rollen p::first-line {
+    font-family: Yonkers;
+    line-height: 1;
+    text-decoration: underline;
 }
