@@ -20,13 +20,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/x-icon" href="img/icon.png">
 
-    <meta http-equiv="refresh" content="20">
+    <!-- meta http-equiv="refresh" content="20" -->
 </head>
 
 <body class="background">
     <div class="navbar-border">
-        <div class="navbar navoverflow">
-            <a class="not">Index:</a>
+        <div class="navbar">
             <a href="#Ablauf">Ablauf</a>
             <a href="#Regeln">Regeln</a>
             <div class="dropdown">
@@ -49,34 +48,43 @@
                     <a href="#Hund">Zäher Hund</a>
                 </div>
             </div>
+            <a href="#Powers">Mächte</a>
         </div>
     </div>
 
     <h1 id="Top">Werwolf</h1>
 
     <h2 id="Ablauf">-Ablauf-</h2>
-
     <div class="main-border">
         <div class="main initial">
-            <p>Alle Mitspielenden werden in eine gemeinsame Chatgruppe eingeladen und bekommen eine geheime Rolle zugeteilt. Unter ihnen die Werwölfe. Die Werwölfe versuchen unentdeckt zu bleiben während sie versuchen, alle anderen Spieler:innen zu fressen.
-                Die andern Spieler:innen probieren die Werwölfe zu enttarnen, bevor diese alle anderen ausgeschaltet haben. Dafür führt die Spielleitung (SL) abwechselnd in eine Tag- und in eine Nachtphase: In der Nachtphase schlafen alle Mitspielenden
-                ein. (D.h. sie müssen jegliche Kommunikation untereinander einstellen). Die SL wird dann die Werwölfe in einem separaten Chat auffordern ein Opfer zu wählen. Danach gibt es noch andere Rollen, die den Spielverlauf beeinflussen können (siehe
-                Rollen). Wenn alle nachtaktiven Rollen mit ihrem Zug fertig sind, beginnt die Tagphase - alle Spieler:innen erwachen gemeinsam und das Opfer der Werwölfe wird preisgegeben. Das Opfer scheidet aus dem weiteren Spielverlauf aus. Darauf hin,
-                müssen sich alle anderen, noch lebenden Mitspielenden via Vote für jemanden entscheiden, den sie für einen Werwolf halten. Die Person mit den meisten Stimmen wird „hingerichtet“ und scheidet ebenfalls aus dem Spiel aus. Die anderen Spieler:innen
-                erfahren, ob diese Person ein Werwolf war. Dann wird es wieder Nacht.</p>
+            <p> Alle Mitspielenden werden in eine gemeinsame Chatgruppe eingeladen und bekommen eine geheime Rolle zugeteilt. Unter ihnen die Werwölfe.</p>
+            <p> Die Werwölfe versuchen unentdeckt zu bleiben während sie versuchen, alle anderen Spieler:innen zu fressen. Die andern Spieler:innen probieren die Werwölfe zu enttarnen, bevor diese alle anderen ausgeschaltet haben. Dafür führt die Spielleitung
+                (SL) abwechselnd in eine Tag- und in eine Nachtphase: In der Nachtphase schlafen alle Mitspielenden ein. (D.h. sie müssen jegliche Kommunikation untereinander einstellen). Die SL wird dann die Werwölfe in einem separaten Chat auffordern
+                ein Opfer zu wählen. Danach gibt es noch andere Rollen, die den Spielverlauf beeinflussen können (siehe Rollen). Wenn alle nachtaktiven Rollen mit ihrem Zug fertig sind, beginnt die Tagphase - alle Spieler:innen erwachen gemeinsam und
+                das Opfer der Werwölfe wird preisgegeben. Das Opfer scheidet aus dem weiteren Spielverlauf aus. Darauf hin, müssen sich alle anderen, noch lebenden Mitspielenden via Vote für jemanden entscheiden, den sie für einen Werwolf halten. Die
+                Person mit den meisten Stimmen wird „hingerichtet“ und scheidet ebenfalls aus dem Spiel aus. Die anderen Spieler:innen erfahren, ob diese Person ein Werwolf war. Dann wird es wieder Nacht.</p>
         </div>
     </div>
+
     <h2 id="Regeln">-Regeln-</h2>
     <div class="main-border">
-        <div class="main">
-            <p>- Kommunikation findet ausschließlich über die Chatgruppen statt. DMs (außer mit der SL) bezüglich des Spieles ist Cheaten!
-            </p>
-            <p>- Absprachen in Werwolf-Chat sind nicht erlaubt, er dient nur zur Wahl des Opfers.
-            </p>
-            <p>- Mit dem Ende der Abstimmung am Tag beginnt sofort die Nacht-Phase. In der Nacht muss Chatten in der Gruppe eingestellt werden!
-            </p>
+        <div class="main regeln">
+            <li>
+                Kommunikation findet ausschließlich über die Chatgruppen statt. DMs (außer mit der SL) bezüglich des Spieles ist Cheaten!
+            </li>
+            <li>
+                Absprachen in Werwolf-Chat sind nicht erlaubt, er dient nur zur Wahl des Opfers.
+            </li>
+            <li>
+                Mit dem Ende der Abstimmung am Tag beginnt sofort die Nacht-Phase. In der Nacht muss Chatten in der Gruppe eingestellt werden!
+            </li>
+            <li>
+                Die Stimmen der Spieler*innen, die (ohne Absprache!) nicht bis zum Ende der Abstimmung abgegeben wurden, werden der oder den Optionen mit den meisten Stimmen angerechnet. Das gilt auch für abwesende Werwölfe in der Nacht.
+            </li>
+
         </div>
     </div>
+
     <h2 id="Rollen">-Rollen-</h2>
     <div class="main-border">
         <div class="main rollen">
@@ -126,12 +134,33 @@
             <p id="Hund">Z&auml;her Hund:
                 <br> Wird erst einen Tag sp&auml;ter, egal an welcher Wunde, sterben.
             </p>
-            <p></p>
+        </div>
+    </div>
+
+    <h2 id="Powers">Mächte</h2>
+    <div class="main-border">
+        <div class="main powers">
+            <p> König*in:
+                <br> Wird zu beginn des Spiels (vor der 1. Nacht gewählt). Kann, wenn es Tags keine absolute Mehrheit gibt, zwischen den Spieler:innen mit den meisten Stimmen entscheiden. Wählt regulär mit.
+            </p>
+            <p> Die Liebenden:
+                <br> 2 Leute sind in einander, verliebt. Sollte eine*r von beiden sterben, reißt es den oder die Andre mit in den Tod. Wenn sich ein Werwolf in einen Menschen verlieben, oder der Adel in gemeines Volk, bilden sie einen neuen Bund, da ihre
+                Lieben von keiner der anderen Fraktionen akzeptiert werden würde. (Nur) in diesem Falle versuchen sie alle anderen auszuschalten. Sie können sich nur am Tage treffen.
+            </p>
+            <p> Das Amulett:
+                <br> Eine zufällige Person bekommt das Amulett. Das Amulett schützt diese Person vor den Tod. Hat das Amulett seinen Zauber gewirkt, muss es weiter gegeben werden, oder es wird zerstört! Es wird auch zerstört, sollte jemand die Annahme
+                des Amulettes ablehnen, oder einer der Liebenden das Amulett erhalten. Kann in der Nacht an jmd anders weitergegeben werden. Ob es zerstört wurde belibt geheim!
+            </p>
+            <p>
+                Abstimmungen:
+                <br>Jeden Tag findet eine Abstimmung satt, wer von den Mitspielenden ein Werwolf seien könnte. Wenn die absolute Mehrheit der Votierenden sich für eine Person entscheidet, so wird diese hingerichtet. Sollte die Hälfte der Stimmen oder
+                weniger nicht an einen einzigen Mitspielenden gehen, so entscheidet der oder die König*in zwischen den Personen mit den meisten Stimmen. Die Abstimmenden können sich in dieser Runde auch dafür entscheiden, niemanden hinzurichten. Auch
+                dafür bedarf es der absoluten Mehrheit. Wenn diese Option zu denen mit den meisten Stimmen gehört, aber nicht über die 50%-Marke kommt, kann die oder der Monarch*in sich auch dafür entscheiden.
         </div>
     </div>
 
     <footer>
-        Copyleft <span class="rotate">&copy;</span> 2022 by <a href="https://twitter.com/the_eglerion" target="_blank" rel="noopener noreferrer">@Egli</a>
+        Copyleft<span class="rotate">&copy;</span> 2022 by <a href="https://twitter.com/the_eglerion" target="_blank" rel="noopener noreferrer">@The_E</a> | No Rights Reserved
     </footer>
 
 </body>
