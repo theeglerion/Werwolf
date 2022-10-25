@@ -107,7 +107,7 @@ footer a:hover {
     width: fit-content;
     border-radius: 100%;
     border: solid 3px #2f9cb5;
-    padding: .1%;
+    padding: 2px;
     overflow: hidden;
 }
 
@@ -158,7 +158,7 @@ html {
 }
 
 .initial p:first-child::first-letter {
-    display: inline-block;
+    display: inline;
     border-style: double;
     border-color: #2f9cb5;
     border-width: 5px;
@@ -172,6 +172,7 @@ html {
     /* Nochmal gucken!*/
     line-height: 0.7;
     vertical-align: +10px;
+    float: left;
 }
 
 .main {
@@ -230,8 +231,8 @@ html {
     width: 115px;
     margin: auto;
     position: fixed;
-    top: 25%;
-    left: 12%;
+    top: 35%;
+    left: 10%;
 }
 
 #no-border {
@@ -239,11 +240,10 @@ html {
 }
 
 p::first-letter {
-    float: left;
     color: #bd1c2cd3;
     font-size: 1.5em;
     font-family: Yonkers;
-    line-height: .7;
+    vertical-align: -5px;
 }
 
 .powers p::first-line {
@@ -251,6 +251,7 @@ p::first-letter {
     font-size: 1.3em;
     font-weight: 400;
     text-decoration: underline;
+    line-height: 2;
 }
 
 .powers span:target+p::first-letter {
@@ -267,14 +268,22 @@ p::first-letter {
     font-family: Blackletter;
     font-size: 1.7em;
     color: #bd1c2cd3;
-    vertical-align: -1px;
+    line-height: .4;
 }
 
-.regeln li::first-line {
-    line-height: 0.5;
+.rollen p img {
+    display: block;
+    position: relative;
+    float: right;
+    height: 4em;
+    width: 4em;
+    margin-left: 1%;
+    bottom: 0;
+    border: double 3px #2f9cb5;
 }
 
 .rollen p {
+    position: relative;
     margin: auto;
     padding-top: .7em;
     padding-bottom: .7em;
@@ -297,6 +306,11 @@ p::first-letter {
     transform: rotate(180deg);
     font-size: 110%;
     vertical-align: -2px;
+}
+
+#Top p::first-letter {
+    line-height: .7;
+    float: left;
 }
 
 @font-face {
