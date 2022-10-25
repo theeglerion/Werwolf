@@ -54,7 +54,6 @@ body {
     font-family: Blackletter;
     font-weight: 200;
     font-size: .7em;
-    overflow: hidden;
 }
 
 .dropdown-content a {
@@ -208,6 +207,7 @@ html {
     font-size: 2em;
     font-weight: 600;
     overflow: hidden;
+    z-index: 1;
 }
 
 .navbar a {
@@ -237,6 +237,10 @@ html {
 
 #no-border {
     border-bottom: none;
+}
+
+p {
+    z-index: 0;
 }
 
 p::first-letter {
@@ -273,17 +277,14 @@ p::first-letter {
 
 .rollen p img {
     display: block;
-    position: relative;
     float: right;
     height: 4em;
     width: 4em;
     margin-left: 1%;
     bottom: 0;
-    border: double 3px #2f9cb5;
 }
 
 .rollen p {
-    position: relative;
     margin: auto;
     padding-top: .7em;
     padding-bottom: .7em;
