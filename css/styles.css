@@ -97,6 +97,38 @@ footer a:hover {
     color: #bd1c2cd3;
 }
 
+#Github {
+    position: static;
+    bottom: 0;
+    margin: auto;
+    margin-top: 4%;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 100%;
+    border: solid 3px #2f9cb5;
+    padding: .1%;
+    overflow: hidden;
+}
+
+#Github img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px #bd1c2c;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    opacity: .85;
+    background-color: #ffffff40;
+}
+
+#Github img:hover {
+    filter: invert(100%);
+    background-color: #fff;
+    border-color: #42e3d3;
+}
+
 h1 {
     color: #000000de;
     font-family: Gutenberg;
@@ -125,23 +157,21 @@ html {
     scroll-behavior: smooth;
 }
 
-#Hund {
-    border-bottom: none;
-}
-
 .initial p:first-child::first-letter {
+    display: inline-block;
     border-style: double;
     border-color: #2f9cb5;
     border-width: 5px;
+    height: auto;
     width: 20px;
     font-family: Blackletter;
-    font-size: 4.5em;
+    font-size: 5.5em;
     color: #bd1c2cd3;
     padding: 1%;
     margin-right: 1%;
     /* Nochmal gucken!*/
-    line-height: 0.5;
-    float: left;
+    line-height: 0.7;
+    vertical-align: +10px;
 }
 
 .main {
@@ -204,15 +234,16 @@ html {
     left: 12%;
 }
 
-p::first-letter {
-    color: #bd1c2cd3;
-    font-size: 1.7em;
-    font-family: Yonkers;
-    vertical-align: -4px;
+#no-border {
+    border-bottom: none;
 }
 
-p::first-line {
-    line-height: 0.5;
+p::first-letter {
+    float: left;
+    color: #bd1c2cd3;
+    font-size: 1.5em;
+    font-family: Yonkers;
+    line-height: .7;
 }
 
 .powers p::first-line {
@@ -220,7 +251,6 @@ p::first-line {
     font-size: 1.3em;
     font-weight: 400;
     text-decoration: underline;
-    line-height: 1;
 }
 
 .powers span:target+p::first-letter {
@@ -256,7 +286,6 @@ p::first-line {
     font-size: 1.3em;
     font-weight: 400;
     text-decoration: underline;
-    line-height: .9;
 }
 
 .rollen span:target+p::first-letter {
