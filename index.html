@@ -52,6 +52,7 @@
                 <div class="dropdown-content not">
                     <a href="#Queen">König*in</a>
                     <a href="#Love">Liebende</a>
+                    <a href="#Vorbild">Vorbild</a>
                     <a href="#Amulett">Amulett</a>
                     <a href="#Votes">Abstimmung</a>
                 </div>
@@ -64,7 +65,7 @@
     <span class="anchor" id="Ablauf"></span>
     <h2>-Ablauf-</h2>
     <div class="main-border">
-        <div id="Top" class="main initial ">
+        <div id="Top" class="main initial">
             <p> Alle Mitspielenden werden in eine gemeinsame Chatgruppe eingeladen und bekommen eine geheime Rolle zugeteilt. Unter ihnen die Werwölfe.</p>
             <p> Die Werwölfe versuchen unentdeckt zu bleiben während sie versuchen, alle anderen Spieler:innen zu fressen. Die andern Spieler:innen probieren die Werwölfe zu enttarnen, bevor diese alle anderen ausgeschaltet haben. Dafür führt die Spielleitung
                 (SL) abwechselnd in eine Tag- und in eine Nachtphase: </p>
@@ -72,7 +73,18 @@
                 die den Spielverlauf beeinflussen können (siehe Rollen). </p>
             <p>Wenn alle nachtaktiven Rollen mit ihrem Zug fertig sind, beginnt die Tagphase - alle Spieler:innen erwachen gemeinsam und das Opfer der Werwölfe wird preisgegeben. Das Opfer scheidet aus dem weiteren Spielverlauf aus. Darauf hin, müssen sich
                 alle anderen, noch lebenden Mitspielenden via Vote für jemanden entscheiden, den sie für einen Werwolf halten. Die Person mit den meisten Stimmen wird „hingerichtet“ und scheidet ebenfalls aus dem Spiel aus. Die anderen Spieler:innen erfahren,
-                ob diese Person ein Werwolf war. Dann wird es wieder Nacht.</p>
+                ob diese Person ein Werwolf war.</p>
+            <p> Dann wird es wieder Nacht.</p>
+            <p>In der Nacht erwacht:
+                <ol start="0">
+                    <li>Amulett</li>
+                    <li>Dirne</li>
+                    <li>Werwölfe</li>
+                    <li>Seher</li>
+                    <li>Hexe</li>
+                    <li>Rabe</li>
+                </ol>
+            </p>
         </div>
     </div>
 
@@ -85,10 +97,11 @@
                 Kommunikation findet ausschließlich über die Chatgruppen statt. DMs (außer mit der SL) bezüglich des Spieles ist Cheaten!
             </li>
             <li>
-                Absprachen in Werwolf-Chat sind nicht erlaubt, er dient nur zur Wahl des Opfers.
+                Mit dem Ende der Abstimmung am Tag beginnt sofort die Nacht-Phase. In der Nacht muss Chatten in der Gruppe eingestellt werden!
             </li>
             <li>
-                Mit dem Ende der Abstimmung am Tag beginnt sofort die Nacht-Phase. In der Nacht muss Chatten in der Gruppe eingestellt werden!
+                Die Herausforderung der Wölfe besteht darin, sich Tags unter den Anderen bereit Signale zu geben. Sobald es dunkel wird, beginnen die Werwölfe sich zu verwanden. Mit Einbruch der Nacht haben sie nur 10 Minuten Zeit um sich im Wolf-Chat zu beraten, danach
+                dürfen sie nur noch Namen nennen, um ihr Opfer zu wählen.
             </li>
             <li>
                 Die Stimmen der Spieler*innen, die (ohne Absprache!) nicht bis zum Ende der Abstimmung abgegeben wurden, werden der oder den Optionen mit den meisten Stimmen angerechnet. Das gilt auch für abwesende Werwölfe in der Nacht.
@@ -103,29 +116,31 @@
         <div class="main rollen">
             <span class="anchor" id="Adel"></span>
             <p> Adel: <img src="img/adel.png?251022_2341" alt="Wappen">
-                <br> Versucht alle anderen Adligen auszuschalten. Muss mindestens eine Nacht und einen Tag auf dem Thron überleben.
+                <br> Adelige, als letzte Nachfahren königlichen Blutes, spielen gegen die andern Höflinge. Versuchen das Amulett als königliche Insigne zu erhalten und den Thron besteigen, oder als letzte Person überleben (zu zweit wenn Liebespaar).
             </p>
-            <div></div>
             <span class="anchor" id="Amor"></span>
             <p> Amor: <img src="img/amor.png" alt="Amor">
-                <br> Bestimmt in der ersten Nacht zwei Liebende.
+                <br> Bestimmt in der ersten Nacht zwei <a href="#Love">Liebende</a>.
             </p>
             <span class="anchor" id="Dirne"></span>
             <p> Dirne/Lustknabe: <img src="img/dirne.png" alt="Herz">
-                <br> Besucht nachts eine andere Person. Diese Person erf&auml;hrt davon. Ist diese Person einer der Werw&ouml;lfe, haben diese f&uuml;r die Nacht ihr Opfer gefunden. Wenn nicht, und kommen die Werw&ouml;lfe an ihr/sein Haus, finden sie
-                es leer vor und m&uuml;ssen die Nacht hungern. Finden sie die besuchte Person, haben sie 2 Opfer. Eine Person kann nicht 2 mal hinter einander besucht werden.
+                <br> Besucht nachts eine andere Person. Ist diese Person einer der Werwölfe, haben diese für die Nacht ihr Opfer gefunden. Wenn nicht, und kommen die Werwölfe an ihr/sein Haus, finden sie es leer vor und müssen diese Nacht hungern. Finden
+                sie die besuchte Person, haben sie 2 Opfer. Eine Person kann nicht 2 mal hinter einander besucht werden.
+                <br> Erwacht zu Erst (nach dem Amulett).
             </p>
             <span class="anchor" id="Doubel"></span>
-            <p> Doppelg&auml;nger*in: <img src="img/doppel.png" alt="Person mit zwei Gesichtern">
-                <br> W&auml;hlt in der ersten Nacht einen Person und &uuml;bernimmt ihre Rollen, sollte sie sterben. Wei&szlig; nicht, welche Rolle es seien wird.
+            <p> Doppelänger*in: <img src="img/doppel.png" alt="Person mit zwei Gesichtern">
+                <br> Wählt zu Beginn eine Person und übernimmt ihre Rollen, sollte sie sterben. Weiß nicht, welche Rolle es seien wird.
             </p>
             <span class="anchor" id="Geschwister"></span>
             <p> Geschwister: <img src="img/geschwister.png" alt="Zwei sich haltende Hände">
-                <br> Wissen von einander, dass sie keine Werw&ouml;lfe sind.
+                <br> Wissen von einander, dass sie keine Werwölfe sind.
             </p>
             <span class="anchor" id="Hexe"></span>
             <p> Hexe*r: <img src="img/hexe.png" alt="Hexenhut">
-                <br> Hat einen Trank zum Heilen und einen zum T&ouml;ten. Erf&auml;hrt in der Nacht wer sterben soll und kann ggf. einmal den Tod verhindern. Auch den eigenen! Kann einmal nachts eine Person t&ouml;ten.
+                <br> Hat einen Trank zum Heilen und einen zum Töten. Erfährt in der Nacht wer sterben soll und kann ggf. einmal den Tod verhindern. Auch den eigenen!
+                <br> Kann einmal nachts eine Person töten.
+                <br> Erwacht als Viertes.
             </p>
             <span class="anchor" id="Hunter"></span>
             <p> J&auml;ger*in: <img src="img/jäger.png" alt="Bogen">
@@ -178,6 +193,10 @@
             <p> Die Liebenden:
                 <br> 2 Leute sind in einander, verliebt. Sollte eine*r von beiden sterben, reißt es den oder die Andre mit in den Tod. Wenn sich ein Werwolf in einen Menschen verlieben, oder der Adel in gemeines Volk, bilden sie einen neuen Bund, da ihre
                 Lieben von keiner der anderen Fraktionen akzeptiert werden würde. (Nur) in diesem Falle versuchen sie alle anderen auszuschalten. Sie können sich nur am Tage treffen.
+            </p>
+            <span class="anchor" id="Vorbild"></span>
+            <p> Vorbild:
+                <br> Wird vom Wilden Kind angehimmelt. Weiß aber (außer das Kind gibt es dem Dorf Preis) nichts von seinem Glück. Wenn er oder sie sterben sollte, schließt sich das Wilde Kind den Werwölfen an.
             </p>
             <span class="anchor" id="Amulett"></span>
             <p> Das Amulett:

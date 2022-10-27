@@ -185,6 +185,7 @@ html {
     hyphens: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3em;
+    color: #000000de;
 }
 
 .main-border {
@@ -276,6 +277,10 @@ p::first-letter {
     line-height: .4;
 }
 
+.rollen a {
+    color: #000000de;
+}
+
 .rollen p img {
     display: block;
     float: right;
@@ -308,6 +313,14 @@ p::first-letter {
     transform: rotate(180deg);
     font-size: 110%;
     vertical-align: -2px;
+}
+
+#Top li {
+    list-style: decimal;
+}
+
+#Top ol {
+    padding-left: 3em;
 }
 
 #Top p::first-letter {
