@@ -252,6 +252,18 @@ p::first-letter {
     vertical-align: -5px;
 }
 
+#Poll {
+    font-family: Blackletter;
+    font-size: 1.5em;
+    padding: .5;
+    text-align: center;
+}
+
+#Poll p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .powers p::first-line {
     font-family: Blackletter;
     font-size: 1.3em;
